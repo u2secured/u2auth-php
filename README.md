@@ -3,6 +3,8 @@
 PHP SDK for the U2Auth platform — TOTP verification, push tap-to-approve, linked approvals
 (pairing codes + enrolments), and signed webhooks.
 
+Part of [U2 Secured Authenticator](https://u2secured.com/authenticator) · [Documentation](https://auth.u2secured.com/developer/docs)
+
 Targets **PHP 7.4** (WordPress's own floor is 7.2.24, and a large share of real installs run 7.4).
 Nothing in `src/` may use an 8.x-only construct (enums, readonly properties, constructor
 promotion, `match`, union types in signatures, `?->`, named arguments) even though the SDK's own

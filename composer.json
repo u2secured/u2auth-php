@@ -2,6 +2,11 @@
   "name": "u2secured/u2auth",
   "description": "U2 Secured Authenticator SDK - push tap-to-approve two-factor auth, TOTP, and signed webhooks.",
   "type": "library",
+  "homepage": "https://u2secured.com/authenticator",
+  "support": {
+    "docs": "https://auth.u2secured.com/developer/docs",
+    "source": "https://github.com/u2secured/u2auth-php"
+  },
   "license": "MIT",
   "require": {
     "php": ">=7.4",
